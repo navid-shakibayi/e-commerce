@@ -1,9 +1,13 @@
+import FooterCategories from "./FooterCategories"
+
 const Footer = ({
 
 }) => {
 
     return <>
-        <h1>This is footer</h1>
+        <section className="max-w-7xl mx-auto px-6">
+            <FooterCategories />
+        </section>
     </>
 }
 
