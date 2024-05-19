@@ -7,13 +7,13 @@ import {
 import Home from "./Components/Home/Home";
 import Product from "./Components/Product/Product";
 import Products from "./Components/Products/Products";
-import Navbar from "./Components/Layout/Navbar";
+import Header from "./Components/Layout/Header";
 import Footer from "./Components/Layout/Footer";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products/:id" element={<Products />} />
